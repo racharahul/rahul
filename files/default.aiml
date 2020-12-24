@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern >Hi</pattern>
+	    <template>Hello!<br/>welcome to online pizza delivery.<br/>Which would you prefer?<br/>Veg Pizza<br/>Or<br/>Nog veg Pizza</template>
+	</category>
+	
+	<category>
+	    <pattern>I prefer veg pizza</pattern>
+	    <that>Which would you prefer?</that>
+	    <template>Margherita<br/>Double Cheese Margherita<br/>Farm House<br/>Peppy Paneer<br/>Mexican Green Wave<br/>Deluxe Veggie<br/>Veg Extravaganza<br/>CHEESE N CORN<br/>PANEER MAKHANI<br/> VEGGIE PARADISE<br/>FRESH VEGGIE<br/>Indi Tandoori Paneer<br/></template>
+	    
+	</category>
+	
+	<category>
+	    <pattern>I prefer Non veg pizza</pattern>
+	    <that>Which would you prefer?</that>
+	    <template>PEPPER BARBECUE CHICKEN<br/>CHICKEN SAUSAGE<br/>Chicken Golden Delight<br/>Non Veg Supreme<br/>Chicken Dominator<br/>PEPPER BARBECUE & ONION<br/>CHICKEN FIESTA<br/>Indi Chicken Tikka<br/></template>
+	</category>
+	
+	<category>
+	    <pattern>I choose * </pattern>
+	    <template><srai>I prefer <star/></srai></template>
+	</category>
+	
+
+    </aiml>
+    
+    
+   
